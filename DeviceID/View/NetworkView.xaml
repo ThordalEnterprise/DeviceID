@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 Title="{Binding Title}"
+             BackgroundColor="Black"
+             xmlns:local="clr-namespace:DeviceID.ViewModels"  
+             xmlns:model="clr-namespace:DeviceID.ViewModels"  
+    x:Class="DeviceID.View.NetworkView">
+  <Grid>
+        <ScrollView>
+            <StackLayout>
+           
+                  <Label Text="Host Name "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                    <Label x:Name="labelDeviceHost"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                <Label Text="IP-Address "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="labelDeviceip"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+
+               <Label Text="MAC-Address "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="labelDevicegetMACwifi"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                 <Label Text="Network Description "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="NetworkDescriptionss"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+         
+                 <Label Text="Network ID "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="netidss"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                <Label Text="Network Name "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="netname"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                 <Label Text="Network InterfaceType "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="InterfaceTypesssnet"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+         
+                         <Label Text="Network Operational Status "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="Operationenet"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                    <Label Text="Network Speed "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="nettings"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                <Label Text="TCP Info  "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+                <Label x:Name="tcpin"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+         
+
+
+         
+
+
+         
+
+
+
+
+         
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

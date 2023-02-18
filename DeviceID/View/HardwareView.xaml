@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        Title="{Binding Title}"
+    xmlns:vm="clr-namespace:DeviceID.ViewModels"
+    x:Class="DeviceID.View.HardwareView">
+ 
+      <ContentPage.BindingContext>
+        <vm:HardwareVM />
+    </ContentPage.BindingContext>
+
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Text="" Command="{Binding xxx}" />
+    </ContentPage.ToolbarItems>
+
+       <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+           <ScrollView>
+            <StackLayout>
+                
+
+       <Label Text="Drive Name "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="drivename"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+        <Label Text="Drive Type "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="DriveTypes"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+                
+        <Label Text="Drive Format "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="vDriveFormatz"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="Available Free Space "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="AvailableFreeSpacezz"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="Total Free Space "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="TotalFreeSpacezz"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="Total Drive Size "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="TotalSizezz"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+
+
+        <Label Text="Process Architecture"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,0,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="ProcessArchitectures"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="OS Description "
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="OSDescriptions"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="OS Architecture"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="OSArchitecturezs"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+        <Label Text="Frame Description"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="FrameworkDescriptionsxkk"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="Total Processor Time"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="startinftt"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+       <Label Text="User Processor Time"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,5,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="UserProcessorTimett"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,5,0,0"
+               FontSize="18" />
+
+
+
+
+
+
+
+
+               
+            </StackLayout>
+               </ScrollView>
+    </Grid>
+
+
+</ContentPage>

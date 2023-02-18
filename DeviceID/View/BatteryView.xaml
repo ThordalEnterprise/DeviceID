@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DeviceID.View.BatteryView"
+        Title="{Binding Title}"
+>
+   
+            <Grid>
+        <ScrollView >
+            <StackLayout> 
+
+   <Grid>
+        
+        <BoxView Color="Black"  />
+
+        <Label Text="Battery State"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,0,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="labelDeviceBatterystate"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,20,0,0"
+               FontSize="18" />
+
+       <Label Text="Power Source "
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,40,0,0" />
+        <Label x:Name="labelDeviceBatterysource"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,60,0,0"
+               FontSize="18" />
+
+        <Label Text="Energy Saver Status"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,80,0,0" />
+        <Label x:Name="labelDeviceBatteryengsource"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,100,0,0"
+               FontSize="18" />
+
+        <Label Text="Charge Level"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,120,0,0" />
+        <Label x:Name="labelDeviceBatterylevel"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,140,0,0"
+               FontSize="18" />
+
+
+
+                    </Grid>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+
+
+
+
+
+
+</ContentPage>

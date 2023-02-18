@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:DeviceID.ViewModels"
+        Title="{Binding Title}"
+    x:Class="DeviceID.View.GeneralView">
+
+    <ContentPage.BindingContext>
+        <vm:GeneralVM />
+    </ContentPage.BindingContext>
+
+        <Grid>
+
+        <ScrollView >
+            <StackLayout>
+
+
+              <Label Text="Device Name"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceDeviceName"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+         
+
+                <Label Text="Device Platform"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceDevicePlatform"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+                     
+
+                <Label Text="Software Version"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceDeviceVersion"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                     <Label Text="Manufacturer"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceManufacturer"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                 <Label Text="Idiom"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceDeviceIdiom"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                  <Label Text="Device Type"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDevicedeviceType"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+                
+                  <Label Text="Carrier ID"
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceCarrierID2"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+               <Label Text="Battery "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceBattery"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+              <Label Text="Device Token "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceDeviceToken"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+                
+              <Label Text="Phone Number "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDevicePhonenumber"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+               <Label Text="IdentifierForVendor "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceIdentifierForVendorPhone"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+                
+               <Label Text="Android ID "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDevicegandrodid"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+               <Label Text="Serial Number "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceserial_numb"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                
+               <Label Text="IMEI "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceIMEI_numb"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+               <Label Text="MEID Number "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceMEID_numb"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+               <Label Text="Advertising Identifier "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDeviceAdvertisingIdentifier"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+                           <Label Text="Google Advertisment ID "
+                         TextColor="White"
+                         FontAttributes="Bold"
+                         Padding="0,5,0,0"
+                         VerticalOptions="Start"/>
+
+              <Label x:Name="labelDevicegetgoogleaddID"
+                            HorizontalOptions="Start"
+                           TextColor="WhiteSmoke"
+                           Padding="5,5,0,0"
+                             FontSize="18"/>
+
+    
+     
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

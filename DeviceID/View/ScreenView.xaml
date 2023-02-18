@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:DeviceID.ViewModels"
+    x:Class="DeviceID.View.ScreenView"
+        BackgroundColor="Black"
+    Title="{Binding Title}">
+ <ContentPage.BindingContext>
+        <vm:ScreenVM />
+    </ContentPage.BindingContext>
+    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollView >
+            <StackLayout Orientation="Vertical" Padding="30,2,30,24" Spacing="10"> 
+
+   <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+
+        <BoxView Color="Black"  />
+        <Label Text="Display Orientation"
+               TextColor="White"
+               FontAttributes="Bold"
+                Padding="0,0,0,0"
+               VerticalOptions="Start" />
+       <Label x:Name="labelDeviceorientation"
+                HorizontalOptions="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,20,0,0"
+               FontSize="18" />
+       <Label Text="Display Width "
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,40,0,0" />
+        <Label x:Name="labelDevicewidth"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,60,0,0"
+               FontSize="18" />
+        <Label Text="Display Height"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,80,0,0" />
+        <Label x:Name="labelDeviceheight"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,100,0,0"
+               FontSize="18" />
+        <Label Text="Display Density"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,120,0,0" />
+        <Label x:Name="labelDevicedensity"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,140,0,0"
+               FontSize="18" />
+        <Label Text="Display RefreshRate"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,160,0,0" />
+        <Label x:Name="labelDeviceRefreshRate"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,180,0,0"
+               FontSize="18" />
+        <Label Text="Display Rotation"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalOptions="Start"
+               Padding="0,200,0,0" />
+        <Label x:Name="labelDevicerotation"
+               HorizontalTextAlignment="Start"
+               TextColor="WhiteSmoke"
+               Padding="5,220,0,0"
+               FontSize="18" />
+
+        <BoxView Grid.Column="1"
+                 Color="Black" />
+       <Image HorizontalOptions="Center"
+              VerticalOptions="Start"
+              Grid.Column="1"
+              Source="screenpic.png">
+       </Image>
+
+
+
+                    </Grid>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+
+
+</ContentPage>

@@ -1,0 +1,38 @@
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.AssemblyInfoInputs.cache
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.AssemblyInfo.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.csproj.CoreCompileInputs.cache
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.csprojAssemblyReference.cache
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/BatteryView.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/GeneralView.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/HardwareView.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/NetworkView.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/ScreenView.xaml.g.cs
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.dll
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/ref/DeviceID.dll
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.pdb
+/Users/Jacob/Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.deps.json
+/Users/Jacob/Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.dll
+/Users/Jacob/Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/ref/DeviceID.dll
+/Users/Jacob/Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.pdb
+/Users/Jacob/Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.deps.json
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.dll
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/ref/DeviceID.dll
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/bin/Debug/netstandard2.0/DeviceID.pdb
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/BatteryView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/GeneralView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/HardwareView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/NetworkView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/View/ScreenView.xaml.g.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.AssemblyInfoInputs.cache
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.AssemblyInfo.cs
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.csproj.CoreCompileInputs.cache
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.dll
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/ref/DeviceID.dll
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.pdb
+/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/obj/Debug/netstandard2.0/DeviceID.csprojAssemblyReference.cache

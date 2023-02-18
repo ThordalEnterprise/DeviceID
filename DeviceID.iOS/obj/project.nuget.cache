@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zLQm3DaBvxwM/jvRnIrPFkE/Fcqa33WlwXxSQ5l8Cvk82D9ssplsDPWY4y5lhfXnxrJhtxJClDUILQxj9+vVSw==",
+  "success": true,
+  "projectFilePath": "/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID.iOS/DeviceID.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/Jacob/.nuget/packages/hardware.info/1.0.1.1/hardware.info.1.0.1.1.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.codedom/4.7.0/system.codedom.4.7.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.management/4.7.0/system.management.4.7.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

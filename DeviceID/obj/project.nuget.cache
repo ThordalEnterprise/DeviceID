@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "+SbsRxFwCG2a4BQBUoke7CCiyFAj6B4Us9rA1+AqfKaLMO6X4IHzx6BiQ+1xdeZt3CLRVmEru0ZJUwTOjTrhhA==",
+  "success": true,
+  "projectFilePath": "/Users/Jacob/Projects/C# Projects/DeviceID/DeviceID/DeviceID.csproj",
+  "expectedPackageFiles": [
+    "/Users/Jacob/.nuget/packages/hardware.info/1.0.1.1/hardware.info.1.0.1.1.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.codedom/4.7.0/system.codedom.4.7.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.management/4.7.0/system.management.4.7.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/Jacob/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
